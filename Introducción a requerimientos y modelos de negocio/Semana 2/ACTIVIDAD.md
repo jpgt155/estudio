@@ -9,21 +9,10 @@
 ## Fecha límite
 * 2 de Abril de 2024
 
-## Conceptos y habilidades a ser aprendidos
-
-
-## Objetivos de la actividad
-
-
 ## Requerimientos
-* Fuente
-  * PDF actividad semana 2
+* PDF actividad semana 2
 * Leer el documento del caso
 * Completar checklist de validación de los requerimientos
-
-## Presentación del trabajo
-* Formato:
-* Contenidos
 
 ## Entregable (formato: utilizar planilla entregada)
 * Formato: Word, tamaño carta, interlineado doble, arial 12 dpi, márgenes estándar
