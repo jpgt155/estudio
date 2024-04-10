@@ -7,6 +7,6 @@
 * Pirámide de requerimientos según las metodologías ágiles
 
 ## Material de estudio
-* (Introducción a requerimientos y modelos de negocios)[https://www.aiepvirtual.cl/bbcswebdav/pid-10054398-dt-content-rid-133780072_1/xid-133780072_1]
-* (Caso de creación de diagramas)[https://www.aiepvirtual.cl/bbcswebdav/pid-10054398-dt-content-rid-133790744_1/xid-133790744_1]
-  * (Herramienta de diagramación)[http://dia-installer.de/index.html.es]
+* [Introducción a requerimientos y modelos de negocios](https://www.aiepvirtual.cl/bbcswebdav/pid-10054398-dt-content-rid-133780072_1/xid-133780072_1)
+* [Caso de creación de diagramas](https://www.aiepvirtual.cl/bbcswebdav/pid-10054398-dt-content-rid-133790744_1/xid-133790744_1)
+  * [Herramienta de diagramación](http://dia-installer.de/index.html.es)
