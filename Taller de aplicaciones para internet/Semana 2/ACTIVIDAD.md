@@ -48,8 +48,8 @@
   * Screenshots del sitio en el navegador
   * URL del sitio
 
-## Entregable (formato: utilizar planilla entregada)
-* Formato: PDF
+## Entregable
+* Formato: PDF, [seguir plantilla](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%202/Plantilla_Trabajo.docx)
 * Documento con las siguientes secciones
   * Portada
   * Desarrollo
