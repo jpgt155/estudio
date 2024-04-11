@@ -18,7 +18,7 @@
 
 ## Requerimientos
 * Contexto: Mejora de la aplicación web
-* Fuente: Documento de orientaciones
+* Fuente: [Documento de orientaciones](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%203/ORIENTACIONES_ACTIVIDAD_FORMATIVA_(A).pdf)
 * Aplicar nueva tipografía para todos los elementos
 * Utilizar una tipografía externa (Ej. Google Fonts)
 * Aplicar color de fondo #f5f5f5
@@ -44,9 +44,9 @@
   * Imágenes y/o videos de referencia
   * Bibliografía en formato APA
 
-## Entregable (formato: utilizar planilla entregada)
+## Entregable
 * Documento
-  * Formato: PDF
+  * Formato: PDF, [utilizar plantilla](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%202/Plantilla_Trabajo.docx)
   * Secciones
     * Portada
     * Índice
