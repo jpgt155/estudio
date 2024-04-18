@@ -1,4 +1,4 @@
-## HTML Tags esenciales
+## HTML5 Tags esenciales
 
 ### `<html>`
 * **Descripción:** Este tag marca el inicio y el fin de tu página web. Es como el contenedor principal que sostiene todos los demás elementos de la página.  
@@ -99,6 +99,8 @@
 
 * Ejemplos visuales de los artículos <a href="https://html5doctor.com/the-article-element/" target="_blank">aquí<a> y <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">aquí<a>
 
+
+
 ### `<h1>`, `<h2>`, ...
 * **Descripción:** Estos son los títulos y subtítulos de tu página. `<h1>` es el más grande e importante, y los números más altos (`<h2>`, `<h3>`, ...) son para sub-títulos menos importantes.  
 
@@ -198,8 +200,10 @@
 ```
 
 ### `<form>`
-* **Descripción:** Se utiliza para crear un formulario en una página web. Un formulario puede contener campos de entrada como textos, opciones y botones, y se usa para recopilar información del usuario.  
-* **Usado cuando:** Quieres recoger datos de los usuarios, como para enviar un formulatio dee contacti, durante el registro en un sitio con usiario/mail y contraseña, hacer encuestas, o cuando los usuarios deben ingresar información para buscar algo.  
+* **Descripción:** Se utiliza para crear un formulario en una página web. Un formulario puede contener campos de entrada como textos, opciones y botones, y se usa para recopilar información del usuario.
+
+**Usado cuando:** Quieres recoger datos de los usuarios, como para enviar un formulatio dee contacti, durante el registro en un sitio con usiario/mail y contraseña, hacer encuestas, o cuando los usuarios deben ingresar información para buscar algo.  
+
 * **Ejemplo:**  
 ```html
 <form action="/submit_form" method="POST">
@@ -207,4 +211,32 @@
   <input type="text" id="name" name="name">
   <input type="submit" value="Enviar">
 </form>
+```
+
+### `<video>`
+* **Descripción:** Se utiliza para incrustar contenido de video en una página web. Este tag permite a los desarrolladores añadir videos que pueden reproducirse directamente en el navegador, con controles como reproducir, pausar, y ajustar el volumen.  
+
+* **Usado cuando:** Quieres mostrar un video en tu sitio web, como tutoriales, presentaciones o contenido de entretenimiento.  
+
+* **Ejemplo:**  
+```html
+<video controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Tu navegador no soporta el elemento de vídeo. <!-- Esta línea es para mostrarle un mensaje a los usuarios usando navegadores viejos sin soporte HTML5 -->
+</video>
+```
+
+### `<audio>`
+* **Descripción:** Permite incrustar sonidos o música en una página web. Similar al tag <video>, pero específicamente para archivos de audio.
+
+* **Usado cuando:**: Quieres añadir elementos de audio a tu sitio, como música de fondo, efectos de sonido, o podcasts.
+
+* **Ejemplo:**
+```html
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+  Tu navegador no soporta el elemento de audio. <!-- Esta línea es para mostrarle un mensaje a los usuarios usando navegadores viejos sin soporte HTML5 -->
+</audio>
 ```
