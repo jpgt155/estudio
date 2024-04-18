@@ -20,7 +20,7 @@
 
 ## Requerimientos del sitio web
 * Contexto: Sitio web de un periódico local
-* Fuente: Documento de orientaciones
+* Fuente: [Documento de orientaciones](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%202/ORIENTACIONES__ACTIVIDAD%20SUMATIVA%20FORMA%20A.pdf)
 * Menú para acceder a las secciones
   * Inicio (Noticias/artículos generales)
   * Sección de deporte

@@ -9,5 +9,3 @@ Como actividad práctica formativa,  realizarán un informe donde dan cuenta del
 
 Durante la semana participaremos de una sesión de consultoría online, conducida por el docente a través de la Sala de Telepresencia. Sugerimos estar atentos al Anuncio o Mensaje del Docente, indicándonos el día y la hora en la que será realizada la sesión.
 Ante cualquier duda o consulta, recuerda enviarla a tiempo a tu docente a través del **Foro de consultas** del módulo.
-
-Éxito y que disfruten de esta cuarta semana.
