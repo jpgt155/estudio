@@ -22,19 +22,19 @@
 * Contexto: Sitio web de un periódico local
 * Fuente: Documento de orientaciones
 * Menú para acceder a las secciones
-  * Inicio (Noticias generales)
+  * Inicio (Noticias/artículos generales)
   * Sección de deporte
   * Sección de Negocios
 * Páginas y contenidos
   * Inicio
     * Portada: Título del periódico “El Faro” y su logotipo
-    * Mínimo 3 noticias generales
+    * Mínimo 3 noticias/artículos generales
       * Incluye un video y un audio
   * Sección de deporte
-    * Mínimo 3 noticias
-  * Sección de Negocios
+    * Mínimo 3 noticias/artículos
+  * Sección de Negocios/artículos
     * Mínimo 3 noticias de negocios/emprendimientos
-* Formato de las noticias
+* Formato de las noticias/artículos
   * Ordenadas en una tabla
     * Título
     * Categoría
