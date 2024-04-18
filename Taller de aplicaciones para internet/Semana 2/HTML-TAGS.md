@@ -196,3 +196,15 @@
   <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
 </footer>
 ```
+
+### `<form>`
+* **Descripción:** Se utiliza para crear un formulario en una página web. Un formulario puede contener campos de entrada como textos, opciones y botones, y se usa para recopilar información del usuario.  
+* **Usado cuando:** Quieres recoger datos de los usuarios, como para enviar un formulatio dee contacti, durante el registro en un sitio con usiario/mail y contraseña, hacer encuestas, o cuando los usuarios deben ingresar información para buscar algo.  
+* **Ejemplo:**  
+```html
+<form action="/submit_form" method="POST">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name">
+  <input type="submit" value="Enviar">
+</form>
+```
