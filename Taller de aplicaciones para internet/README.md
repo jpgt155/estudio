@@ -1,9 +1,7 @@
-# Taller de aplicaciones para internet
+# Unidad 1
+* Semana 4
 
-## Contenidos
-
-Actividades, Evaluaciones, y Material de estudio semanal
-* [Semana 1](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%201/README.md)
-* [Semana 2](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%202/README.md)
-* [Semana 3](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%203/README.md)
-* [Semana 4](https://github.com/jpgt155/estudio/new/main/Taller%20de%20aplicaciones%20para%20internet/Semana%204/README.md)
+## Material
+* [Cómo avanzar?](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%204/COMO-AVANZAR.md)
+* [Actividad y fecha límite](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%203/ACTIVIDAD.md)
+* [Material de estudio obligatorio](https://github.com/jpgt155/estudio/blob/main/Taller%20de%20aplicaciones%20para%20internet/Semana%203/PRO_301_DOCUMENTO_S3.pdf)
