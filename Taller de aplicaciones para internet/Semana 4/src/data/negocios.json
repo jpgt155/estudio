@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "titulo": "Noticia Negocios 1",
+        "descripcion": "Descripción de la noticia de negocios 1"
+    },
+    {
+        "id": 2,
+        "titulo": "Noticia Negocios 2",
+        "descripcion": "Descripción de la noticia de negocios 2"
+    },
+    {
+        "id": 3,
+        "titulo": "Noticia Negocios 3",
+        "descripcion": "Descripción de la noticia de negocios 3"
+    }
+]

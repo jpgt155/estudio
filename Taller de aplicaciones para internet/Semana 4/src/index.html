@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Define que el documento es HTML5 -->
+<html lang="es"> <!-- Especifica el idioma del documento como español -->
+<head>
+    <meta charset="UTF-8"/> <!-- Define la codificación de caracteres UTF-8 para el contenido -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Asegura una vista adecuada en dispositivos móviles -->
+    <title>El Faro</title> <!-- Título del documento, que aparece en la pestaña del navegador -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/> <!-- Importa fuentes de Google Fonts -->
+    <link rel="stylesheet" href="estilos.css"/> <!-- Vincula la hoja de estilos CSS externa para formatear el documento -->
+</head>
+<body>
+    <header>
+        <img src="logo.png" id="logo"> <!-- Imagen del logo -->
+        <h1>El Faro</h1> <!-- Encabezado principal del sitio web -->
+        <div id="hora-en-vivo"></div> <!-- Contenedor para mostrar la hora en vivo -->
+        <nav>
+            <ul>
+                <!-- Lista de links de navegación para diferentes secciones del sitio, cada uno con un 'data-target' para identificar la sección -->
+                <li><a href="javascript:void(0);" class="nav-link" data-target="inicio">Inicio</a></li>
+                <li><a href="javascript:void(0);" class="nav-link" data-target="deporte">Deporte</a></li>
+                <li><a href="javascript:void(0);" class="nav-link" data-target="negocios">Negocios</a></li>
+                <li><a href="javascript:void(0);" class="nav-link" data-target="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Sección de inicio, visible por defecto. Contiene una grilla para noticias y un formulario para agregar artículos -->
+        <section id="inicio" class="content-section">
+            <div class="news-grid" id="news-grid-inicio"></div>
+            <form id="formulario-agregar-articulo-inicio" class="article-form">
+                <input type="text" id="titulo-articulo-inicio" placeholder="Título" required/> <!-- Campo para título del artículo -->
+                <textarea id="descripcion-articulo-inicio" placeholder="Descripción" required></textarea> <!-- Área para descripción del artículo -->
+                <button type="button" onclick="agregarArticulo('inicio')">Agregar Artículo</button> <!-- Botón para enviar el formulario -->
+            </form>
+        </section>
+        <!-- Las siguientes secciones están ocultas por defecto y se muestran según la navegación -->
+        <section id="deporte" class="content-section" style="display: none;">
+            <div class="news-grid" id="news-grid-deporte"></div>
+            <form id="formulario-agregar-articulo-deporte" class="article-form">
+                <input type="text" id="titulo-articulo-deporte" placeholder="Título" required/>
+                <textarea id="descripcion-articulo-deporte" placeholder="Descripción" required></textarea>
+                <button type="button" onclick="agregarArticulo('deporte')">Agregar Artículo</button>
+            </form>
+        </section>
+        <section id="negocios" class="content-section" style="display: none;">
+            <div class="news-grid" id="news-grid-negocios"></div>
+            <form id="formulario-agregar-articulo-negocios" class="article-form">
+                <input type="text" id="titulo-articulo-negocios" placeholder="Título" required/>
+                <textarea id="descripcion-articulo-negocios" placeholder="Descripción" required></textarea>
+                <button type="button" onclick="agregarArticulo('negocios')">Agregar Artículo</button>
+            </form>
+        </section>
+        <!-- Sección de contacto con un formulario para enviar mensajes -->
+        <section id="contacto" class="content-section" style="display: none;">
+            <form id="formulario-contacto" class="contact-form" onsubmit="enviarCorreo(event)">
+                <input type="text" id="nombre-contacto" placeholder="Su nombre" required/> <!-- Campo para el nombre del usuario -->
+                <textarea id="mensaje-contacto" placeholder="Su mensaje" required></textarea> <!-- Área para el mensaje del usuario -->
+                <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="copy">&copy; 2024 El Faro</p> <!-- Pie de página con derechos de autor -->
+    </footer>
+    <script src="scripts.js"></script> <!-- Vincula el archivo JavaScript externo -->
+</body>
+</html>

@@ -1,0 +1,190 @@
+/* Estilos globales */
+/* Define las fuentes y colores de fondo generales para todo el cuerpo del documento. */
+body {
+    font-family: 'Open Sans', sans-serif; /* Fuente principal para el texto del cuerpo. */
+    margin: 0; /* Remueve los márgenes predeterminados del cuerpo. */
+    padding: 0; /* Remueve el relleno predeterminado del cuerpo. */
+    background-color: #f5f5f5; /* Establece un color de fondo claro para todo el sitio. */
+}
+
+/* Establece las fuentes para todos los encabezados, desde h1 hasta h6. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif; /* Fuente especial para encabezados, más estilizada. */
+}
+
+/* Estilos específicos para el encabezado principal de las páginas. */
+header {
+    margin: 20px; /* Espacio alrededor del encabezado. */
+    text-align: center; /* Centra el texto dentro del encabezado. */
+    width: 100% /* Asegura que el encabezado ocupe todo el ancho disponible. */
+}
+
+/* Estilos para el logotipo dentro del encabezado. */
+#logo {
+    width: 50px; /* Ancho fijo del logo. */
+    height: 50px; /* Altura fija del logo. */
+    margin-right: auto; /* Margen automático a la derecha para centrar o alinear adecuadamente. */
+    position: absolute; /* Posición absoluta para un posicionamiento preciso. */
+    left: 20px; /* Desplaza el logotipo hacia la izquierda desde su posición contenedora. */
+}
+
+/* Configura el estilo de la barra de navegación. */
+nav ul {
+    list-style: none; /* Remueve los estilos de lista predeterminados. */
+    padding: 0; /* Elimina el relleno por defecto. */
+    display: flex; /* Utiliza Flexbox para una disposición flexible de los elementos. */
+    justify-content: center; /* Centra los elementos de la lista horizontalmente. */
+    gap: 10px; /* Espacio entre cada elemento de la lista. */
+}
+
+/* Estilos para los enlaces de navegación. */
+.nav-link {
+    text-decoration: none; /* Remueve el subrayado predeterminado de los enlaces. */
+    color: black; /* Establece el color del texto del enlace. */
+    transition: all 0.3s ease; /* Suaviza la transición de los estilos al cambiar estados. */
+}
+
+/* Estilos para los enlaces de navegación al pasar el ratón o enfocarlos. */
+.nav-link:hover, .nav-link:focus {
+    font-weight: bold; /* Hace el texto del enlace más grueso. */
+    color: white; /* Cambia el color del texto a blanco. */
+    background-color: black; /* Fondo negro para resaltar el enlace activo o enfocado. */
+}
+
+/* Sección principal de contenido, configurada para alinear sus elementos hijos. */
+.content-section {
+    display: flex; /* Uso de Flexbox para una disposición flexible. */
+    flex-direction: column; /* Los elementos hijos se organizan en columna. */
+    align-items: center; /* Alinea los elementos hijos al centro horizontalmente. */
+    width: 100%; /* Ocupa todo el ancho disponible. */
+    gap: 20px; /* Espacio entre elementos dentro de la sección. */
+}
+
+/* Configuración de la grilla para secciones de noticias o artículos. */
+.news-grid {
+    display: grid; /* Uso de Grid para la disposición de elementos. */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Crea columnas que responden al tamaño de la ventana. */
+    gap: 20px; /* Espacio entre elementos de la grilla. */
+    padding: 20px; /* Relleno dentro del contenedor de la grilla. */
+    background-color: white; /* Fondo blanco para los artículos o noticias. */
+}
+
+/* Estilos para los artículos individuales dentro de la grilla. */
+article {
+    padding: 20px; /* Relleno alrededor del contenido del artículo. */
+    background-color: white; /* Fondo blanco para cada artículo. */
+    color: black; /* Color de texto por defecto. */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil para destacar el artículo. */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para cambios de estilo. */
+}
+
+/* Efectos al pasar el ratón sobre los artículos. */
+article:hover {
+    background-color: black; /* Fondo oscuro al pasar el ratón. */
+    color: white; /* Texto claro para contraste. */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Sombra más pronunciada al pasar el ratón. */
+}
+
+/* Estilos para formularios dentro de artículos, como comentarios o envíos. */
+.article-form {
+    display: flex; /* Utiliza Flexbox para la disposición de elementos. */
+    flex-direction: column; /* Organiza los hijos en columna. */
+    align-items: center; /* Centra los elementos hijos. */
+    background-color: white; /* Fondo claro para el formulario. */
+    padding: 20px; /* Relleno adecuado para la separación de elementos. */
+    border-radius: 8px; /* Bordes redondeados para un aspecto moderno. */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para un efecto de elevación. */
+    margin-top: 20px; /* Espacio superior para separar del contenido previo. */
+    margin-left: 10px; /* Espacio izquierdo para separar del borde izquierdo del viewport. */
+    margin-right: 10px; /* Espacio derecho para separar del borde derecho del viewport. */
+}
+
+/* Estilos comunes para todos los botones dentro del documento. */
+button {
+    width: auto; /* Ancho automático basado en el contenido interno. */
+    padding: 10px 20px; /* Relleno para hacer el botón más grande y fácil de clickear. */
+    background-color: #31231e; /* Color de fondo oscuro para el botón. */
+    color: white; /* Texto claro para fácil lectura. */
+    border: none; /* Sin bordes para un look más limpio. */
+    border-radius: 4px; /* Bordes ligeramente redondeados. */
+    cursor: pointer; /* Cambia el cursor para indicar que es clickeable. */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves al cambiar el estado. */
+}
+
+/* Estilos para botones al pasar el ratón sobre ellos. */
+button:hover {
+    background-color: black; /* Fondo más oscuro al pasar el ratón para mayor énfasis. */
+}
+
+/* Estilos adicionales para manejar la responsividad y la accesibilidad en dispositivos más pequeños. */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Cambia la disposición de la barra de navegación a vertical. */
+    }
+
+    .news-grid {
+        grid-template-columns: 1fr; /* Adapta la grilla para una sola columna en pantallas estrechas. */
+    }
+
+    .article-form{
+        margin-top: 5px; /* Reduce el espacio superior para una apariencia más compacta. */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Sombra más ligera para un efecto más suave. */
+        margin-left: 0px; /* Espacio izquierdo para separar del borde izquierdo del viewport. */
+        margin-right: 20px; /* Espacio derecho para separar del borde derecho del viewport. */
+        /*width: 100%; /* Asegura que el formulario ocupe todo el ancho disponible. */
+    }
+
+    .content-section {
+        padding: 10px; /* Reduce el relleno general para ahorrar espacio. */
+        gap: 10px; /* Reduce los espacios entre elementos para una vista más compacta. */
+    }
+
+    input[type="text"], textarea {
+        padding: 8px; /* Ajusta el relleno de los campos de entrada para mejor manejo. */
+    }
+
+    button {
+        padding: 8px 16px; /* Ajusta el tamaño del botón para mejor acceso en pantallas táctiles. */
+    }
+}
+
+/* Estilos para formularios generales, incluyendo ajustes de sombras y bordes. */
+form {
+    background-color: white; /* Fondo claro para formularios. */
+    padding: 20px; /* Relleno interno para separar los elementos del borde. */
+    border-radius: 8px; /* Bordes redondeados para un diseño agradable. */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra para destacar el formulario del fondo. */
+    margin-top: 20px; /* Espacio superior para evitar que los elementos se toquen. */
+    border: 1px solid #ccc; /* Borde sutil para delinear el formulario. */
+}
+
+/* Ajustes para campos de texto e input, incluyendo estilos para mejorar la accesibilidad visual. */
+input[type="text"], textarea {
+    width: 100%; /* Asegura que los campos de texto ocupen todo el ancho posible. */
+    padding: 10px; /* Relleno suficiente para una fácil interacción. */
+    margin-bottom: 10px; /* Espacio debajo de cada campo para evitar la superposición. */
+    border: 1px solid #ccc; /* Borde claro para definir los límites de los campos de entrada. */
+    border-radius: 4px; /* Bordes redondeados para una estética coherente. */
+}
+
+/* Ajustes adicionales para botones dentro de formularios, para mejorar la interacción. */
+button {
+    width: auto; /* Ancho basado en el contenido interno para una adaptabilidad óptima. */
+    padding: 10px 20px; /* Relleno adecuado para un fácil clic. */
+    background-color: #31231e; /* Color de fondo oscuro inicial. */
+    color: white; /* Texto claro para contraste y legibilidad. */
+    border: none; /* Elimina los bordes para un diseño más limpio. */
+    border-radius: 4px; /* Bordes redondeados para una apariencia moderna. */
+    cursor: pointer; /* Cursor de mano indica acción clickeable. */
+    display: block; /* Hace que el botón sea un bloque, centrando automáticamente. */
+    margin: 10px auto; /* Centra el botón horizontalmente y proporciona espacio alrededor. */
+}
+
+/* Efectos adicionales para botones al interactuar con ellos, para un feedback visual claro. */
+button:hover {
+    background-color: black; /* Cambio de color a negro para destacar la interacción. */
+}
+
+.copy {
+    text-align: center;
+}

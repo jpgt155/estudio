@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "titulo": "Noticia Deporte 1",
+        "descripcion": "Descripción de la noticia de inicio 1"
+    },
+    {
+        "id": 2,
+        "titulo": "Noticia Deporte 2",
+        "descripcion": "Descripción de la noticia de inicio 2"
+    },
+    {
+        "id": 3,
+        "titulo": "Noticia Deporte 3",
+        "descripcion": "Descripción de la noticia de inicio 3"
+    }
+]
